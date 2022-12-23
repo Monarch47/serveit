@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         'primary-blue': '#142664',
         'primary-cyan': '#5EDFE8',
-        'secondary-blue': '#577CD8'
+        'primary-white': '#FBFBFB',
+        'secondary-blue': '#577CD8',
       },
       fontFamily: {
         'prompt': ['Prompt', 'sans-serif'],
