@@ -6,7 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary-blue': '#142664',
+        'primary-cyan': '#5EDFE8',
+        'secondary-blue': '#577CD8'
+      },
+      fontFamily: {
+        'prompt': ['Prompt', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
